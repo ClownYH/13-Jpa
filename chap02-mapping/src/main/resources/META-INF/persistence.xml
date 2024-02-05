@@ -10,8 +10,8 @@
 <!--        <class>com.ohgiraffers.section04.enumtype.Member</class>-->
 <!--        <class>com.ohgiraffers.section05.access.subsection01.field.Member</class>-->
 <!--        <class>com.ohgiraffers.section05.access.subsection02.property.Member</class>-->
-<!--        <class>com.ohgiraffers.section06.compositekey.subsection01.embedded.Member</class>-->
-<!--        <class>com.ohgiraffers.section06.compositekey.subsection02.idclass.Member</class>-->
+<!--        <class>com.ohgiraffers.section06.compositeKey.subsection01.embedded.Member</class>-->
+<!--        <class>com.ohgiraffers.section06.compositeKey.subsection02.idclass.Member</class>-->
 
         <properties>
             <!-- 데이터 베이스 연결 정보 -->

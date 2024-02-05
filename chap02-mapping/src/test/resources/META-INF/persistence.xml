@@ -5,13 +5,13 @@
     <persistence-unit name="jpatest">
 <!--        <class>com.ohgiraffers.section01.entity.Member</class>-->
 <!--        <class>com.ohgiraffers.section02.column.Member</class>-->
-<!--        <class>com.ohgiraffers.section03.primarykey.subsection01.identity.Member</class>-->
-<!--        <class>com.ohgiraffers.section03.primarykey.subsection02.table.Member</class>-->
+<!--        <class>com.ohgiraffers.section03.primaryKey.subsection01.identity.Member</class>-->
+<!--        <class>com.ohgiraffers.section03.primaryKey.subsection02.table.Member</class>-->
 <!--        <class>com.ohgiraffers.section04.enumtype.Member</class>-->
-<!--        <class>com.ohgiraffers.section05.access.subsection01.field.Member</class>-->
-<!--        <class>com.ohgiraffers.section05.access.subsection02.property.Member</class>-->
-<!--        <class>com.ohgiraffers.section06.compositekey.subsection01.embedded.Member</class>-->
-<!--        <class>com.ohgiraffers.section06.compositekey.subsection02.idclass.Member</class>-->
+<!--        <class>com.ohgiraffers.section05.access.subsection01.Member</class>-->
+<!--        <class>com.ohgiraffers.section05.access.subsection02.Member</class>-->
+<!--        <class>com.ohgiraffers.section06.compositeKey.subsection01.embedded.Member</class>-->
+        <class>com.ohgiraffers.section06.compositeKey.subsection02.idClass.Member</class>
 
         <properties>
             <!-- 데이터 베이스 연결 정보 -->
@@ -24,6 +24,8 @@
             <property name="hibernate.format_sql" value="true"/>
             <!-- DML 구문 수행 시 자동으로 스키마 생성(테이블 생성)을 위한 설정 추가 -->
             <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <!-- ddl은 테이블을 생성하거나 수정하는 명령어, dml은 데이터를 조회하거나 변화를 주는 것 -->
+            <!-- 여기서 설정에 실수하면 협업에서 문제가 생긴다. 가장 많이 실수하는 곳 -->
         </properties>
 
     </persistence-unit>
